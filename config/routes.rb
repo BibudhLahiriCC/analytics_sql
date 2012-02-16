@@ -1,4 +1,6 @@
 AnalyticsSql::Application.routes.draw do
+  resources :days_since_visits
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

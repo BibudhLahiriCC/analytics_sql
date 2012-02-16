@@ -1,0 +1,2 @@
+module DaysSinceVisitsHelper
+end

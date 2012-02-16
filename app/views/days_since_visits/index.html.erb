@@ -1,0 +1,21 @@
+<h1>Listing days_since_visits</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @days_since_visits.each do |days_since_visit| %>
+  <tr>
+    <td><%= link_to 'Show', days_since_visit %></td>
+    <td><%= link_to 'Edit', edit_days_since_visit_path(days_since_visit) %></td>
+    <td><%= link_to 'Destroy', days_since_visit, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Days since visit', new_days_since_visit_path %>
